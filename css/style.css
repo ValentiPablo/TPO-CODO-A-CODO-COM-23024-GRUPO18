@@ -297,13 +297,13 @@ transform: translatey(-1%);
     margin: 5px;
 }
 
-.contacto input[type="text"], input[type="email"], textarea {
+.contacto input[type="text"], .contacto input[type="email"], .contacto textarea {
     padding: 5px;
     margin: 10px;
     width: 90%;
 }
 
-.contacto input[type="submit"], input[type="reset"] {
+.contacto input[type="submit"], .contacto input[type="reset"] {
     padding: 5px;
     margin: 30px 16px 10px 16px;
     text-decoration: none;
@@ -317,7 +317,7 @@ transform: translatey(-1%);
     transition: all 400ms ease;
 }
 
-.contacto input[type="submit"]:hover, input[type="reset"]:hover{
+.contacto input[type="submit"]:hover, .contacto input[type="reset"]:hover{
     background: rgb(203, 203, 203);
     color:#5e0202;
 }
